@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Audiowide:100,200,300,400,500,600,700 &display=swap');
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.col {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.display {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #28a745;
+}
+
+/*mark {*/
+/*    background-color: #1a1a1a;*/
+/*    color: #fff;*/
+/*}*/
+
+/*-----------images---------------*/
+
+.logo {
+    width: 60px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.bg-image {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.bg-image-contact {
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    position: relative;
+     justify-content: center;
+}
+
+/*-----------navbar---------------*/
+
+.navbar {
+    padding: 10px 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+
+
+.navbar-brand {
+    margin-right: 0;
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+    margin-right: 20px;
+}
+
+.navbar-nav a {
+    text-align: right;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fd7e14;
+}
+
+.nav-item {
+    padding: 5px 0px;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #e71532;
+}
+
+/*----------jumbotron---------------*/
+
+.jumbotron {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.jumbotron-home {
+    color: #fff;
+    margin-top: 30px;
+    /*padding: 32px 32px;*/
+    font-size: 30px;
+}
+
+.jumbotron-contact-form {
+    font-size: 16px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+
+
+.display,
+.lead {
+    margin: 30px 0;
+    font-weight: 300;
+}
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider-orange {
+    background-color: #e71532;
+}
+
+/*----------footer---------------*/
+
+.links,
+.social-links {
+    background-color: #343a40;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.links a,
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    display: block;
+    padding: 15px 5px;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.social-links a:hover,
+.links a:hover {
+    color: orange;
+}
+
+.social-links a {
+    color: #e71532;
+}
+
+/*----------form---------------*/
+
+.contact-header {
+    height: 120px;
+    font-weight: 500;
+    color: #fff;
+    /*background-color: #ccc;*/
+}
+
+
+.form-row {
+    padding: 15px 0;
+}
+
+.form-control {
+    margin: 8px;
+}
+
+
+
+/*----------responsive---------------*/
+
+
+@media screen and (min-width:768px) {
+    .navbar-brand {
+        font-size: 30px;
+    }
+    
+    .jumbotron-contact-form {
+    font-size: 24px;
+       width: 60%;
+    }
+    
+}
+
+@media screen and (min-width:576px) {
+    .links li {
+        display: inline-block;
+    }
+}
+
+
