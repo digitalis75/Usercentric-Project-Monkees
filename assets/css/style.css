@@ -19,7 +19,9 @@ body {
     padding: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
@@ -30,10 +32,6 @@ h1, h2, h3 {
     color: #28a745;
 }
 
-/*mark {*/
-/*    background-color: #1a1a1a;*/
-/*    color: #fff;*/
-/*}*/
 
 /*-----------images---------------*/
 
@@ -65,9 +63,9 @@ h1, h2, h3 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     position: relative;
-     justify-content: center;
+    justify-content: center;
 }
 
 /*-----------navbar---------------*/
@@ -129,7 +127,6 @@ h1, h2, h3 {
 .jumbotron-home {
     color: #fff;
     margin-top: 30px;
-    /*padding: 32px 32px;*/
     font-size: 30px;
 }
 
@@ -185,6 +182,10 @@ h1, h2, h3 {
     color: orange;
 }
 
+/*.footer-link li.active {*/
+/*    color: #e71532;*/
+/*}*/
+
 .social-links a {
     color: #e71532;
 }
@@ -195,7 +196,6 @@ h1, h2, h3 {
     height: 120px;
     font-weight: 500;
     color: #fff;
-    /*background-color: #ccc;*/
 }
 
 
@@ -207,21 +207,87 @@ h1, h2, h3 {
     margin: 8px;
 }
 
+/*----------music---------------*/
+
+.jumbotron-music {
+    margin: 0 15px 20px;
+}
+
+.jumbotron-music-hits {
+    margin: 0 auto 20px;
+    /*width: 100%;*/
+}
+
+.audio {
+    padding: 0;
+    font-size: 16px;
+}
+
+.audio-list {
+    padding-bottom: 10px;
+}
+
+.audio-list-item {
+    margin: 0 10px;
+}
+
+.fa-music:before {
+    color: #28a745;
+}
+
+/*----------gallery---------------*/
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+}
+
+.gallery {
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+.gallery:hover {
+    border: 1px solid  #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.disk-name {
+    padding: 15px 0;
+    text-align: center;
+}
+
+/*----------videos---------------*/
+
+.jumbotron-videos {
+    padding: 20px; 
+}
+
+.gallery video {
+    width: 100%;
+    height: auto;
+}
 
 
 /*----------responsive---------------*/
-
 
 @media screen and (min-width:768px) {
     .navbar-brand {
         font-size: 30px;
     }
-    
+
     .jumbotron-contact-form {
-    font-size: 24px;
-       width: 60%;
+        font-size: 24px;
+        width: 60%;
     }
     
+    .jumbotron-music-hits {
+        width: 70%;
+    }
 }
 
 @media screen and (min-width:576px) {
@@ -229,5 +295,3 @@ h1, h2, h3 {
         display: inline-block;
     }
 }
-
-
