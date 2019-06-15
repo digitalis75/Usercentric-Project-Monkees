@@ -2,7 +2,7 @@
 
 
 body {
-
+   
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
@@ -14,7 +14,8 @@ body {
     padding: 0;
 }
 
-.col {
+
+.row, .col, .col-12 {
     margin: 0;
     padding: 0;
 }
@@ -42,6 +43,7 @@ h3 {
 }
 
 .bg-image {
+   
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center center;
@@ -57,6 +59,7 @@ h3 {
 }
 
 .bg-image-contact {
+    /*background-image: url("..assets/images/bg-image.jpg");*/
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
@@ -115,29 +118,6 @@ h3 {
     color: #e71532;
 }
 
-/*----------jumbotron---------------*/
-
-.jumbotron {
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-top: 15px;
-    padding-bottom: 10px;
-}
-
-.jumbotron-home {
-    color: #fff;
-    margin-top: 30px;
-    font-size: 30px;
-}
-
-.jumbotron-contact-form {
-    font-size: 16px;
-    margin: 20px auto;
-    width: 80%;
-}
-
-
-
 .display,
 .lead {
     margin: 30px 0;
@@ -154,6 +134,39 @@ h3 {
 .block-divider-orange {
     background-color: #e71532;
 }
+
+
+/*----------jumbotron---------------*/
+
+.jumbotron {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+.jumbotron-home {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.jumbotron-music {
+   
+    font-size: 16px;
+    margin: 20px 0;
+
+    /*width: 100%;*/
+}
+
+.jumbotron-contact-form {
+    font-size: 16px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+
 
 /*----------footer---------------*/
 
@@ -185,7 +198,6 @@ h3 {
 /*.footer-link li.active {*/
 /*    color: #e71532;*/
 /*}*/
-
 .social-links a {
     color: #e71532;
 }
@@ -215,25 +227,22 @@ h3 {
     color: #fff;
 }
 
+form {
+    margin: 10px;
+}
 
 .form-row {
-    padding: 15px 0;
+    padding: 0;
+    margin: 30px 0;
 }
 
 .form-control {
-    margin: 8px;
+    text-align: center;
+    margin: 8px 0;
 }
 
 /*----------music---------------*/
 
-.jumbotron-music {
-    margin: 0 15px 20px;
-}
-
-.jumbotron-music-hits {
-    margin: 0 auto 20px;
-    /*width: 100%;*/
-}
 
 .audio {
     padding: 0;
@@ -255,13 +264,13 @@ h3 {
 /*----------gallery---------------*/
 
 .responsive {
-    padding: 0 6px;
-    float: left;
+   margin: 15px 0;
+   padding: 0 6px;
+   float: left;
 }
 
 .gallery {
     border: 1px solid #ccc;
-    margin: 20px;
 }
 
 .gallery:hover {
@@ -269,12 +278,13 @@ h3 {
 }
 
 .gallery img {
+
     width: 100%;
     height: auto;
 }
 
 .disk-name {
-    padding: 15px 0;
+    padding: 15px;
     text-align: center;
 }
 
