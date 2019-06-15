@@ -190,6 +190,23 @@ h3 {
     color: #e71532;
 }
 
+/*----------band---------------*/
+
+.band img {
+     width: 100%;
+     height: auto;
+}
+
+.member-name {
+    text-align: center;
+    border: 1px solid #ccc;
+     margin: 20px;
+}
+
+.member-name:hover {
+    border: 1px solid  #777;
+}
+
 /*----------form---------------*/
 
 .contact-header {
