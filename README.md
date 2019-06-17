@@ -1,4 +1,4 @@
-## Usercentric - Project - Monkees
+# Usercentric - Project - Monkees
 
 In this project I was asked to build a website for the 60's rock music band with a great experience of peforming live on different events and around the world.     
 
@@ -17,6 +17,7 @@ The website is fully responsive and can be used on devices with different screen
 #### Existing Features
 
 * A User-friendly navigation between the pages.
+* Collapsible button in navigation bar for mobile screen.
   Navigation bar at the top of the page with the links to the pages.  Also navigation links included in the Footer:  
   * Home - a link to the index.html page;  
   * Band - a link to the band.html page, with an information about band;  
@@ -42,12 +43,11 @@ The website is fully responsive and can be used on devices with different screen
 
 ## Technology Used
 
-The code is written in HTML and CSS, addited in Cloud9.
-
-Also used:
+* HTML5
+* CSS3
 * Bootstrap - a css framework;  
-* JQuery -  a JavaScript library for simplifying HTML DOM;  
-* Font-Awesome - a font and icon toolkit, based on CSS and LESS;  
+* JQuery -  a JavaScript library for simplifying HTML DOM;
+* The code is addited in Cloud9.
 
 ## Testing
 
@@ -65,26 +65,20 @@ Following tests were performed to make sure that all the features work:
 
 ## Deployment
 
-This project was deployed through GitHub.  
+This project is stored in GitHub repository and deployed from the master branch.  
 [Click to view website](https://digitalis75.github.io/Usercentric-Project-Monkees/)
 
 ## Credit
 
-To build this website I used:  
-* Video tutorials of Code Institute and examples of introduced code;
-* HTML, CSS, Bootstrap4 tutorials at [w3schools.com](https://w3schools.com/);  
-* [Bootstrap Documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/);
-* [Font Awesome](https://fontawesome.com/);
-* Article: [Making Your YouTube Embeds Mobile Responsive with Bootstrap](https://www.solodev.com/blog/web-design/making-your-youtube-embeds-mobile-responsive-with-bootstrap.stml);
-* Article: [How to Vertically Center Elements with Bootstrap](https://www.solodev.com/blog/web-design/how-to-vertically-center-elements-with-bootstrap.stml);
-* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet);
-
 #### Content
+
+* [Wikipedia.org](https://en.wikipedia.org/wiki/The_Monkees)
 
 #### Media
 
 * Images
-  * band.jpg, cover.jpg, album.jpg, album2.jpg, dj.jpg, md.jpg, mn.jpg, pt.jpg are provided by Code Institute and downloaded from [GitHub repository](https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/images);
+  * band.jpg, cover.jpg, album.jpg, album2.jpg, dj.jpg, md.jpg, mn.jpg, pt.jpg are provided by Code Institute and downloaded from [GitHub repository](https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/images);  
+  Following images were downloaded from internet: 
   * album3.jpg [download here](https://www.google.com/search?rlz=1C1PRFI_enIE722IE846&tbm=isch&sa=1&ei=dX0FXbeOBMiM1fAP_f2UUA&q=monkees+albums&oq=monkees+albums&gs_l=img.3..0j0i24l7.226440.228465..233672...0.0..0.111.561.5j1......0....1..gws-wiz-img.......0i30j0i8i30.HOXsIjRTJtw#imgrc=t4x17KFzCQdrFM:);
   * album4.jpg [download here](https://www.google.com/search?rlz=1C1PRFI_enIE722IE846&tbm=isch&sa=1&ei=YH4FXYTTBKiV1fAPyL-48A8&q=monkees+albums+headquoters&oq=monkees+albums+headquoters&gs_l=img.12...196496.204917..207845...0.0..0.104.1091.10j2......0....1..gws-wiz-img.......0i30j0i24.M08DwhYS0t0#imgrc=08uTL2dL2Fb--M:);
   * album5.jpg [download here](https://www.google.com/search?rlz=1C1PRFI_enIE722IE846&tbm=isch&sa=1&ei=-34FXcS2BqCp1fAP1ZmZSA&q=monkees+albums+pisces+&oq=monkees+albums+pisces+&gs_l=img.3...44503.52991..55564...1.0..0.162.937.6j3......0....1..gws-wiz-img.......0i30j0i24.AoBjzp2r6cc#imgrc=TrpKJqImi-0sVM:);
@@ -95,7 +89,7 @@ To build this website I used:
   * Music mp3 are provided by Code Institute and downloaded from [GitHub repository](https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/audio);
 
 * Videos
-  * Video TheMonkees.mp4 is provided by Code Institute and downloaded from [GitHub repository](https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/video);
+  * Video TheMonkees.mp4 is provided by Code Institute and downloaded from [GitHub repository](https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets/video);  
     YouTube Videos:  
     https://www.youtube.com/embed/rcnsao7Y0gk;  
     https://www.youtube.com/embed/sUzs5dlLrm0;  
@@ -104,4 +98,11 @@ To build this website I used:
     https://www.youtube.com/embed/q5kt8cxfNRE;  
 
 #### Acknowledgements
-
+To build this website I used:  
+* Video tutorials of Code Institute and examples of introduced code;
+* HTML, CSS, Bootstrap4 tutorials at [w3schools.com](https://w3schools.com/);  
+* [Bootstrap Documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/);
+* [Font Awesome](https://fontawesome.com/);
+* Article: [Making Your YouTube Embeds Mobile Responsive with Bootstrap](https://www.solodev.com/blog/web-design/making-your-youtube-embeds-mobile-responsive-with-bootstrap.stml);
+* Article: [How to Vertically Center Elements with Bootstrap](https://www.solodev.com/blog/web-design/how-to-vertically-center-elements-with-bootstrap.stml);
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet);
