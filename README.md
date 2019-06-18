@@ -11,6 +11,7 @@ Also the website allows the band to publicise their availability to perform on d
 
 The website is fully responsive and can be used on devices with different screen sizes and in all browsers.
 
+Wireframes have been created in Balsamiq and can be viewed [here](wireframes/)
 
 ## Features
 
@@ -33,13 +34,11 @@ The website is fully responsive and can be used on devices with different screen
 * Mobile-ready version - Responsive website design.
  
 * Social media integration.  There are Icons/links in the Footer to social media accounts of the group.
-* Audios, video, YouTube videos.
+* Play Audios, video and YouTube videos.
 
 #### Features Left to Implement
 
-* Social media icon/links open blank pages.
-* Read more buttons in band.html open blank pages.
-* Enquire now button opens a blank page.
+* Social media icon/links
 
 ## Technology Used
 
