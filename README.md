@@ -38,7 +38,8 @@ Wireframes have been created in Balsamiq and can be viewed [here](wireframes/)
 
 #### Features Left to Implement
 
-* Social media links
+* Social media links;
+* Files for "read more" buttons.
 
 ## Technology Used
 
