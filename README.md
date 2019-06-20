@@ -38,13 +38,13 @@ Wireframes have been created in Balsamiq and can be viewed [here](wireframes/)
 
 #### Features Left to Implement
 
-* Social media icon/links
+* Social media links
 
 ## Technology Used
 
-* HTML5
-* CSS3
-* Bootstrap - a css framework;  
+* HTML5;
+* CSS3;
+* Bootstrap (v4.1) - a css framework;  
 * JQuery -  a JavaScript library for simplifying HTML DOM;
 * The code is addited in Cloud9.
 
@@ -65,7 +65,7 @@ Following tests were performed to make sure that all the features work:
 ## Deployment
 
 This project is stored in GitHub repository and deployed from the master branch.  
-[Click to view website](https://digitalis75.github.io/Usercentric-Project-Monkees/)
+[Click to view website.](https://digitalis75.github.io/Usercentric-Project-Monkees/)
 
 ## Credit
 

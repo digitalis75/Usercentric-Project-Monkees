@@ -6,7 +6,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
-
 }
 
 .container-fluid {
@@ -33,7 +32,6 @@ h3 {
     color: #28a745;
 }
 
-
 /*-----------images---------------*/
 
 .logo {
@@ -59,7 +57,7 @@ h3 {
 }
 
 .bg-image-contact {
-    /*background-image: url("..assets/images/bg-image.jpg");*/
+    /*background-image: url("assets/images/bg-image.jpg");*/
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
@@ -80,7 +78,6 @@ h3 {
     width: 100%;
 }
 
-
 .navbar-brand {
     margin-right: 0;
     font-family: "Audiowide", sans-serif;
@@ -88,7 +85,6 @@ h3 {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-
 }
 
 .navbar .navbar-toggler {
@@ -152,9 +148,12 @@ h3 {
 }
 
 .jumbotron-music {
-   
     font-size: 16px;
     margin: 20px 0 0;
+}
+
+.jumbotron-videos {
+    padding: 20px; 
 }
 
 .jumbotron-contact-form {
@@ -238,7 +237,6 @@ h3 {
 .info {
     font-size: 12px;
     color: #7575a3;
-    
 }
 
 .read-more {
@@ -318,10 +316,6 @@ form {
 }
 
 /*----------videos---------------*/
-
-.jumbotron-videos {
-    padding: 20px; 
-}
 
 .gallery video {
     width: 100%;
