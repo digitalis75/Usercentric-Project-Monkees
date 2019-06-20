@@ -40,9 +40,10 @@ h3 {
     margin-left: 15px;
 }
 
-.bg-image {
+.bg-image,
+ .bg-image-body {
+    background-image: url("../images/bg-image.jpg");
    
-    height: 100vh;
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
@@ -50,23 +51,16 @@ h3 {
     -o-background-size: cover;
     background-size: cover;
 
-    display: flex;
-    align-items: center;
+   
     justify-content: center;
     position: relative;
 }
 
-.bg-image-contact {
-    /*background-image: url("assets/images/bg-image.jpg");*/
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.bg-image {
+    height: 100vh;
+    display: flex;
+    align-items: center;
 
-    position: relative;
-    justify-content: center;
 }
 
 /*-----------navbar---------------*/
